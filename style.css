@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ficha {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-personagem {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.info-personagem div {
+  margin-bottom: 10px;
+}
+
+.info-personagem input {
+  width: 150px;
+}
+
+.atributos {
+  margin-bottom: 20px;
+}
+
+.atributo {
+  margin-bottom: 10px;
+}
+
+.atributo label {
+  display: inline-block;
+  width: 100px;
+}
+
+.atributo input {
+  width: 50px;
+}
+
+.botoes {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
